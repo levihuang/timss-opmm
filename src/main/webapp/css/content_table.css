@@ -1,0 +1,29 @@
+.search_box
+{
+	float: left;
+	height: 20px;
+	line-height: 19px;
+	padding-bottom: 3px;
+	padding-left: 8px;
+	padding-top: 3px;
+	width: 120px;
+	margin-left: 6px;
+}
+.toolbar
+{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 8px;
+}
+.chkbox
+{
+	margin-left: 4px;
+}
+table tr td
+{
+	padding-left: 8px;
+}
+table tr th
+{
+	padding-left: 8px;
+}

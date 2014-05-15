@@ -1,0 +1,16 @@
+.itcui_skin_icon{
+	width:48px;
+	height: 48px;
+	display: block;
+	float: left;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	cursor: pointer;
+}
+
+.itcui_skin_icon:hover{
+	border-color: #FF0000;
+}

@@ -1,0 +1,32 @@
+.itcui_frm_grp_title{
+	border-bottom-color: rgb(230, 236, 245);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	color: rgb(34, 34, 34);
+	height: 34px;
+	font-size: 12px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.itcui_frm_grp_title_txt{
+	color: rgb(34, 34, 34);
+	display: inline;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 34px;
+	float: left;
+	margin-left: 6px;
+}
+.itcui_frm_grp_title_arrow{
+	vertical-align: middle;
+	height: 34px;
+	width: 10px;
+	margin-left: 4px;
+	background-image: url("../images/tab_arrow_fold.png");
+	background-repeat: no-repeat;
+	float: left;
+}
+.itcui_frm_grp_title_arrow_expand{
+	background-image: url("../images/tab_arrow_expand.png");
+	background-repeat: no-repeat;
+}

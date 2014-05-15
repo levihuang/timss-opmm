@@ -1,0 +1,7 @@
+#itcui_skin > .itcui_skin_top{
+	background-image: none;
+}
+
+.system_logo{
+	background-image: url("../images/system_logo.png")!important;
+}

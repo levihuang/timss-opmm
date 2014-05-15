@@ -1,0 +1,10 @@
+#itcui_skin > .itcui_skin_top{
+	background-image: url("theme_green_full_banner.png");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	height: 87px;
+}
+
+.system_logo{
+	background-image: url("../images/system_logo.png")!important;
+}

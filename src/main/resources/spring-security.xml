@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd  
+                        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd
+                                   http://www.springframework.org/schema/context   
+           http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+	
+	
+<!-- 
+	<http pattern="/sayHi.do" security="none" />
+	<http pattern="/index.jsp" security="none" /> -->
+	
+	<!-- 默认filter -->
+<!-- 	<http auto-config="true" use-expressions="true" access-decision-manager-ref="unanimousBased" > -->
+<!-- 	<http auto-config="true" use-expressions="true" >
+	
+		<intercept-url pattern="/*" access="fullyAuthenticated" />
+		
+		<form-login login-page="/sayHi.do" default-target-url="/welcome.do" /> 
+		
+		<remember-me key="testRemmerber" services-ref="ipTokenBasedRememberMeServicesBean"/>
+		
+		<logout invalidate-session="true" logout-success-url="/goodBye.do" logout-url="/logout" />
+		
+		<intercept-url pattern="/account/*.do"  access="hasRole('ROLE_USER') and fullyAuthenticated" />
+	
+	</http> -->
+
+<!-- 	<user-service id="userService">
+		<user name="" authorities=""/>
+	</user-service> -->
+
+	<!-- 授权管理 -->
+<!-- 	<authentication-manager alias="authenticationManager">
+		<authentication-provider>
+			<user-service id="userService">
+				<user authorities="ROLE_USER" name="guest" password="guest" />
+			</user-service>
+		</authentication-provider>
+	</authentication-manager> -->
+
+
+</beans:beans>

@@ -1,0 +1,9 @@
+#itcui_skin > .itcui_skin_top{
+	background-image: url("theme_wooden_full_banner.png");
+	background-position: bottom left;
+	height: 87px;
+}
+
+.system_logo{
+	background-image: url("../images/system_logo_white.png")!important;
+}
