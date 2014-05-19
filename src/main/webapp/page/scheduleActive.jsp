@@ -50,10 +50,10 @@
 	function newrow(i) {
 		var html = "<tr>" + "<td><span class='itcui_chkbox'></span></td>"
 				+ "<td>" + (i + 1) + "</td>"
-				+ "<td><div id='td"+i+"_1' style='width: 60px'></div></td>"
-				+ "<td><div id='td"+i+"_2' style='width: 80px'></td>"
-				+ "<td><div id='td"+i+"_3' style='width: 120px'></td>"
-				+ "<td><div id='td"+i+"_4' style='width: 30px'></td>"
+				+ "<td><div id='td"+i+"_1' ></div></td>"
+				+ "<td><div id='td"+i+"_2' ></td>"
+				+ "<td><div id='td"+i+"_3' ></td>"
+				+ "<td><div id='td"+i+"_4' ></td>"
 				/*+ "<td><div id='td"+i+"_5' style='width: 120px'></td>"
 				+ "<td><div id='td"+i+"_6' style='width: 30px'></td>"
 				+ "<td><div id='td"+i+"_7' style='width: 30px'></td>"
@@ -63,7 +63,7 @@
 				+ "</tr>";
 
 		$(".itcui_table").append(html)
-		$('#td' + i + '_1').html("1000" + i + 1);
+		$('#td' + i + '_1').html("1000" + i	);
 		/* $('#td' + i +'_2').html( "值长日志" );
 		$('#td' + i +'_3').html( "2014-05-" + ( i + 1 ) );
 		$('#td' + i +'_4').html( " 常白班" );
